@@ -1,0 +1,29 @@
+<prescriptions xmlns="http://greenify.github.io/schemas/prescription/v3">
+    <prescription type="broadcast" package="com.tencent.tim" class="com.tencent.open.business.base.appreport.AppReportReceiver" sender="any"/>
+    <prescription type="broadcast" package="com.tencent.tim" class="com.tencent.mobileqq.earlydownload.EarlyDownloadReceiver" sender="any"/>
+    <prescription type="broadcast" package="com.tencent.tim" class="com.tencent.mobileqq.msf.core.NetConnInfoCenter" sender="any"/>
+    <prescription type="broadcast" package="com.tencent.tim" class="cooperation.qzone.NotificationClickReceiver" sender="any"/>
+    <prescription type="broadcast" package="com.tencent.tim" class="com.tencent.mobileqq.app.NotificationDeleteReceiver" sender="any"/>
+    <prescription type="broadcast" package="com.tencent.tim" class="cooperation.plugin.PluginCrashReceiver" sender="any"/>
+    <prescription type="broadcast" package="com.tencent.tim" class="cooperation.qqreader.QRAioCmdReceiver" sender="any"/>
+    <prescription type="broadcast" package="com.tencent.tim" class="com.tencent.sc.appwidget.QCenterWidgetProvider" sender="any"/>
+    <prescription type="broadcast" package="com.tencent.tim" class="cooperation.qwallet.plugin.QWalletProxyReceiver" sender="any"/>
+    <prescription type="broadcast" package="com.tencent.tim" class="cooperation.qqfav.QfavPluginProxyReceiver" sender="any"/>
+    <prescription type="broadcast" package="com.tencent.tim" class="cooperation.qzone.QzoneProxyReceiver" sender="any"/>
+    <prescription type="broadcast" package="com.tencent.tim" class="com.tencent.mobileqq.statistics.ReportReceiver" sender="any"/>
+    <prescription type="broadcast" package="com.tencent.tim" class="com.tencent.mobileqq.filemanager.core.UniformDownloadNfnReceiver" sender="any"/>
+    <prescription type="broadcast" package="com.tencent.tim" class="com.tencent.mobileqq.activity.qwallet.report.VACDReportReceiver" sender="any"/>
+    <prescription type="broadcast" package="com.tencent.tim" class="com.tencent.av.VideoMsgBroadcastReceiver" sender="any"/>
+    <prescription type="broadcast" package="com.tencent.tim" class="com.tencent.mobileqq.webprocess.WebProcessReceiver" sender="any"/>
+    <prescription type="broadcast" package="com.tencent.tim" class="cooperation.weiyun.WeiyunProxyBroadcastReceiver" sender="any"/>
+    <prescription type="broadcast" package="com.tencent.tim" class="cooperation.dingdong.DingdongPluginProxyBroadcastReceiver" sender="any"/>
+
+    <prescription type="service" package="com.zhihu.android" class="com.liulishuo.filedownloader.services.FileDownloadService$SeparateProcessService" sender="any"/>
+    <prescription type="service" package="com.zhihu.android" class="com.liulishuo.filedownloader.services.FileDownloadService$SharedMainProcessService" sender="any"/>
+    <prescription type="service" package="com.zhihu.android" class="com.zhihu.android.app.push.NotificationWebSocketService" sender="any"/>
+    <prescription type="service" package="com.zhihu.android" class="com.avos.avoscloud.PushService" sender="any"/>
+    <prescription type="service" package="com.zhihu.android" class="com.instabug.library.network.UploadCacheService" sender="any"/>
+    <prescription type="service" package="com.zhihu.android" class="com.zhihu.android.data.analytics.ZAPeriodicExecuteJobService" sender="any"/>
+    <prescription type="service" package="com.zhihu.android" class="com.zhihu.android.data.analytics.ZAPeriodicExecuteService" sender="any"/>
+    <prescription type="service" package="com.zhihu.android" class="com.zhihu.android.app.live.player.ZhihuPlayerService" sender="any"/>
+</prescriptions>
